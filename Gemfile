@@ -6,6 +6,10 @@ gem 'sqlite3-ruby', '1.3.2', :group => :development
 
 gem 'rake', '~> 0.8.7'
 
+group :production do
+  gem "pg", "~> 0.11.0"
+end
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
